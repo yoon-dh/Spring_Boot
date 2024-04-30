@@ -21,6 +21,7 @@ public class ArticleController {
     @Autowired
     private ArticleRepository articleRepository;
 
+
     @GetMapping("/articles/new")
     public String newArticleForm() {
         return "articles/new";
